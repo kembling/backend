@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
 app.use(bandNameGen);
 
 app.post("/submit",(req,res)=>{
-  res.send(`<h1> your band name is </h1>  <h2> ${bandName}</h2>`)
+  res.send(`<h1> your band name is </h1>  <h2> n${bandName}</h2>`)
 })
 
 
